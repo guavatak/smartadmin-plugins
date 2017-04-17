@@ -967,7 +967,7 @@
                      * Unwrap the widget, remove the height, set the right
                      * fulscreen button back, and show all other buttons.
                      **/
-                    thisWidget.unwrap('<div>')
+                    thisWidget.unwrap()
                         .children('div')
                         .removeAttr('style')
                         .end()
